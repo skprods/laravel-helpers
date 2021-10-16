@@ -1,7 +1,20 @@
 {
   "name": "skprods/laravel-helpers",
   "description": "Helpers for Laravel framework",
-  "minimum-stability": "dev",
+  "keywords": [
+    "skprods",
+    "laravel",
+    "helpers"
+  ],
+  "homepage": "https://github.com/skprods/laravel-helpers",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Sklyar",
+      "email": "ozpavel@yandex.ru",
+      "role": "Maintainer"
+    }
+  ],
   "require": {
     "php": "^7.4|^8.0",
     "illuminate/support": "^7|^8"
@@ -19,5 +32,6 @@
     "app:cs": [
       "phpcs --standard=PSR12 --encoding=utf-8 -p src -p config"
     ]
-  }
+  },
+  "minimum-stability": "dev"
 }
