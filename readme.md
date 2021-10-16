@@ -1,5 +1,11 @@
 ## Helpers for Laravel framework
 
+### Installation:
+
+```bash
+composer require skprods/laravel-helpers
+```
+
 ### Console
 
 `Console` is a facade for displaying information to the terminal. 
