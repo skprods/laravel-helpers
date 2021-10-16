@@ -1,0 +1,23 @@
+{
+  "name": "skprods/laravel-helpers",
+  "description": "Helpers for Laravel framework",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/support": "^7|^8"
+  },
+  "require-dev": {
+    "laravel/framework": "^7|^8",
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SKprods\\LaravelHelpers\\": "src"
+    }
+  },
+  "scripts": {
+    "app:cs": [
+      "phpcs --standard=PSR12 --encoding=utf-8 -p src -p config"
+    ]
+  }
+}
