@@ -6,7 +6,7 @@ use Symfony\Component\Console\Output\ConsoleOutput as BaseConsoleOutput;
 
 class ConsoleOutput
 {
-    private BaseConsoleOutput $output;
+    private ?BaseConsoleOutput $output = null;
 
     public function __construct()
     {
