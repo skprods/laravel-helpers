@@ -1,11 +1,11 @@
 <?php
 
-namespace SKprods\LaravelHelpers;
+namespace SKprods\LaravelHelpers\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use SKprods\LaravelHelpers\Support\ConsoleOutput;
+use SKprods\LaravelHelpers\Handlers\ConsoleOutput;
 
-class LaravelHelpersServiceProvider extends ServiceProvider
+class HelpersServiceProvider extends ServiceProvider
 {
     public function register()
     {
@@ -13,5 +13,4 @@ class LaravelHelpersServiceProvider extends ServiceProvider
             return new ConsoleOutput();
         });
     }
-
 }

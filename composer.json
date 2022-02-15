@@ -1,18 +1,13 @@
 {
   "name": "skprods/laravel-helpers",
   "description": "Helpers for Laravel framework",
-  "keywords": [
-    "skprods",
-    "laravel",
-    "helpers"
-  ],
+  "keywords": ["skprods", "laravel", "helpers"],
   "homepage": "https://github.com/skprods/laravel-helpers",
   "license": "MIT",
   "authors": [
     {
       "name": "Pavel Sklyar",
-      "email": "ozpavel@yandex.ru",
-      "role": "Maintainer"
+      "email": "ozpavel@yandex.ru"
     }
   ],
   "require": {

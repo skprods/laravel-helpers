@@ -1,9 +1,9 @@
 <?php
 
-namespace SKprods\LaravelHelpers;
+namespace SKprods\LaravelHelpers\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use SKprods\LaravelHelpers\Support\ConsoleOutput;
+use SKprods\LaravelHelpers\Handlers\ConsoleOutput;
 
 /**
  * @method static info(string $message)

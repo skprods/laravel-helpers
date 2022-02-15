@@ -1,6 +1,6 @@
 <?php
 
-namespace SKprods\LaravelHelpers\Support;
+namespace SKprods\LaravelHelpers\Handlers;
 
 use Symfony\Component\Console\Output\ConsoleOutput as BaseConsoleOutput;
 
