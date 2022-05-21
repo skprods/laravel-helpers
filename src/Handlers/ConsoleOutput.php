@@ -2,6 +2,7 @@
 
 namespace SKprods\LaravelHelpers\Handlers;
 
+use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Output\ConsoleOutput as BaseConsoleOutput;
 
 class ConsoleOutput
@@ -32,6 +33,11 @@ class ConsoleOutput
     {
         $styled = ($style) ? "<$style>$message</$style>" : $message;
         $this->output->writeln($styled);
+    }
+
+    public function bar(int $max = 0, float $minSecondsBetweenRedraws = 1 / 25): ProgressBar
+    {
+        return new ProgressBar($this->output, $max, $minSecondsBetweenRedraws);
     }
 
     private function setOutput()
