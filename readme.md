@@ -1,5 +1,9 @@
 ## Helpers for Laravel framework
 
+### Warning
+This package will no longer be supported. You can find the current version here:
+https://github.com/skprods/advanced-laravel
+
 ### Installation:
 
 ```bash
